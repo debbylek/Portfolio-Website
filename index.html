@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#" class="logo">Portfolio</a>
+        </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        
+        <ul class="nav-links">
+            <li><a href="#" class="active">About me</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <!-- SECTION 1: About -->
+      <section class="about-section">
+        <div class="text">
+          <h2>Hi,I'm Igbolekwu Deborah</h2>
+          <p>Frontend Developer</p>
+          <div class="links">
+            <a href="https://github.com/debbylek">
+              <i class="fa-brands fa-github"></i>
+              <span></span>
+            </a>
+
+            <a href="www.linkedin.com/in/
+            igbolekwu-deborah-b1b740247">
+              <i class="fa-brands fa-linkedin"></i>
+              <span></span>
+            </a>
+
+            <a href="mailto:debbydonas09@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              <span></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="headshot">
+          <img
+            src="img/WhatsApp Image 2025-02-10 at 22.21.12_f77da5e2.jpg"
+            alt="Deborah headshot"
+          />
+        </div>
+      </section>
+
+      <!-- SECTION 2: Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          As a beginner in web development, I've gained foundational skills in:
+          - HTML: Building structured web pages 
+          - CSS: Styling and layout design
+        </div>
+
+        <div class="cells">
+        <div class="cell">
+          <img src="img/HTML5_logo_and_wordmark.svg.png" width="250" alt="html logo">
+          <span>HTML</span>
+
+          <div class="cells">
+            <div class="cell">
+              <img src="img/CSS-Logo-2011.png" width="250" alt="css logo">
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: Portfolio section -->
+       <section id="portfolio">
+        <div class="portfolio-header">
+          <h1>Portfolio</h1>
+        </div>
+  
+        <div class="portfolio-container">
+
+          <div class="gallery">
+          <img src="img/modified_image (9).png" alt="A Signup Page">
+        <div class="gallery-content">
+        <h3>A Sign Up Page</h3>
+        <a href="https://debbylek.github.io/Sign-Up-Page/"></a>
+        </div>
+          </div>
+
+          <div class="gallery">
+            <img src="img/modified_image (10).png" alt="A 404 error Page">
+          <div class="gallery-content">
+          <h3>A 404 error Page</h3>
+          <a href="https://debbylek.github.io/404-error-page/"><a>
+          </div>
+            </div>
+
+            <div class="gallery">
+              <img src="img/modified_image (7).png" alt="A Product Highlight Page">
+            <div class="gallery-content">
+            <h3>A Product Highlight Page</h3>
+            <a href="https://debbylek.github.io/Assignment1/"><a>
+            </div>
+              </div>
+
+              <div class="gallery">
+                <img src="img/modified_image (8).png" alt="A Landing Page">
+              <div class="gallery-content">
+              <h3>A Landing Page</h3>
+              <a href="https://debbylek.github.iolanding-page"><a>
+              </div>
+                </div>
+                
+    </section>
+
+      <!-- SECTION 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" required> 
+          
+          <label for="emil">Email</label>
+          <input type="email" id="email" required> 
+
+          <label for="number">Phone number</label>
+          <input type="number" required> 
+
+          <label for="message">Messages</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      </div>
+      </section>
+
+      <footer>
+        <div class="footer-content">
+        <p><a href="#top">Back to Top</a></p>
+        <ul class="footer-icons">
+          <li><a href="www.Github.com"></a></li>
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+
+      <li><a href="www.Linkedin.com"></a></li>
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+
+      <li><a href="mailto:debbydonas.com">
+       </a>
+     </li>
+            <i class="fa-solid fa-envelope"></i>
+          
+          
+        <div class="footer-copyright">
+        <p>&copy; 2025 Igbolekwu Deborah. All rights reserved.</p>
+     </div>
+    </div>
+        </footer>
+        
+    </main>
+  </body>
+</html>
