@@ -294,8 +294,10 @@ nav-links li {
 .contact-section .group form input .contact-section .group form textarea {
   font-family: 'poppins', sans-serif;
   border: 1px solid var(--link-color);
-  background: purple;
+  background: white;
   padding: 10px;
+  border-radius: 6px;
+  margin: 2%;
   margin-bottom: 15px;
   outline: none;
   resize: none;
@@ -310,6 +312,7 @@ nav-links li {
   border: none;
   height: 50px;
   cursor: pointer;
+  margin: 25px;
   transition: .1s;
 }
 

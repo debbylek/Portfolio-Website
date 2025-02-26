@@ -35,16 +35,16 @@
         </label>
         
         <ul class="nav-links">
-            <li><a href="#" class="active">About me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about" class="active">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <main>
-      <!-- SECTION 1: About -->
-      <section class="about-section">
+      <!-- SECTION 1: About me -->
+      <section id="about" class="about-section">
         <div class="text">
           <h2>Hi,I'm Igbolekwu Deborah</h2>
           <p>Frontend Developer</p>
@@ -85,12 +85,12 @@
 
         <div class="cells">
         <div class="cell">
-          <img src="img/HTML5_logo_and_wordmark.svg.png" width="250" alt="html logo">
+          <img src="img/html.png" width="250" alt="html logo">
           <span>HTML</span>
 
           <div class="cells">
             <div class="cell">
-              <img src="img/CSS-Logo-2011.png" width="250" alt="css logo">
+              <img src="img/css-3.png" width="250" alt="css logo">
               <span>CSS</span>
             </div>
           </div>
@@ -145,7 +145,8 @@
     </section>
 
       <!-- SECTION 4: Contact -->
-      <section id="contact" class="contact-section">
+      <section id="contact" class="contact-form">
+        <div>
         <h2>Contact</h2>
         <div class="group">
         <form>
@@ -159,10 +160,11 @@
           <input type="number" required> 
 
           <label for="message">Messages</label>
-          <textarea id="message" cols="30" rows="10"></textarea>
+          <textarea id="message"></textarea>
 
           <button type="submit">Send Message</button>
         </form>
+      </div>
       </div>
       </div>
       </section>
