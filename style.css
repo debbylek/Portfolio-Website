@@ -4,7 +4,6 @@
   --background-color: lightgrey;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +20,7 @@ body {
   --link-color: purple;
   max-width: 1400px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -272,10 +272,36 @@ nav-links li {
 
 
 /* SECTION 4: Contact */
-.contact-section {
+.form-container{
+  background-color: white;
+  margin: 2% 15%;
+  padding: 5% 20%;
+  display: grid;
+  border-radius: 6px;
+}
+
+h2{
+  margin: 0;
+  /* padding: 10%; */
+}
+
+form input, textarea, button{
+  display: block;
+  width: 100%;
+  padding: 1%;
+  /* margin: 2%; */
+}
+
+form button{
+  margin-top: 5%;
+  padding: 10px;
+
+}
+
+/* .contact-section {
   padding: 0 50px;
   margin-bottom: 100px;
-}
+} */
 
 .contact-section h2 {
   display: flex;
@@ -283,13 +309,13 @@ nav-links li {
   align-content: center;
 }
 
-.contact-section .group form {
+/* .contact-section .group form {
   flex: 3;
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 0 35px;
-}
+} */
 
 .contact-section .group form input .contact-section .group form textarea {
   font-family: 'poppins', sans-serif;
@@ -320,6 +346,10 @@ nav-links li {
   filter: brightness(.9);
   color: blue;
 }
+
+
+
+
 
 .footer {
   padding: 25px;
